@@ -1,0 +1,35 @@
+.container {
+  /*padding: 20px;*/
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  text-align: center;
+  /*background: pink;
+  /*border: 2px solid #ff85a2;*/
+  border-radius: 15px;
+  /*width: 300px;*/
+  margin: 200px auto;
+  /*box-shadow: 0 4px 8px rgba(255, 133, 162, 0.4);*/
+}
+
+.title {
+  font-size: 60px;
+  color: pink;
+  text-shadow: 1px 1px 2px #d6336c;
+  margin-bottom: 20px;
+  user-select: none;
+}
+
+.button {
+  font-size: 20px;
+  padding: 12px 30px;
+  cursor: pointer;
+  border-radius: 25px;
+  border: none;
+  background-color: #ff6f91;
+  color: white;
+  box-shadow: 0 4px 6px #d6336c;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #ff4669;
+}
